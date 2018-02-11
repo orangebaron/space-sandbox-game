@@ -3,12 +3,14 @@
 
 #include <string>
 
+typedef long meter;
 struct point {
-  float x,y;
+  meter x,y;
 };
 typedef int angle;
 typedef int skinId;
 typedef std::string code;
-typedef long energy;
+typedef long joule;
+typedef int kilogram;
 
 #endif
